@@ -1,0 +1,27 @@
+form {
+  max-width: 800px;
+  min-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+input:required {
+  border: 1px solid red;
+}
+
+fieldset {
+  background-color: rgb(187, 179, 179);
+  padding: 1rem;
+}
+
+fieldset:hover {
+  background-color: grey;
+}
+
+button {
+  background-color: black;
+  color: white;
+  border: none;
+}

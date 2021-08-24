@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Ejercicio CSS 2</title>
+</head>
+
+<body>
+  <form action="" method="GET">
+    <fieldset>
+      <legend>Datos personales</legend>
+      <ul>
+        <li>
+          <label for="name">
+            Nombre
+            <input type="text" autofocus name="name">
+          </label>
+        </li>
+        <li>
+          <label for="mail">
+            Correo electrónico
+            <input type="mail" required name="mail">
+          </label>
+        </li>
+        <li>
+          <label for="url">
+            URL
+            <input type="url" placeholder="Escribe la URL de tu página web personal" name="url">
+          </label>
+        </li>
+        <li>
+          <label for="tel">
+            Teléfono
+            <input type="tel" name="tel">
+          </label>
+        </li>
+        <li>
+          <label for="color">
+            Color favorito
+            <input type="color" name="color">
+          </label>
+        </li>
+      </ul>
+    </fieldset>
+
+    <fieldset>
+      <legend>Datos de registro</legend>
+      <ul>
+        <li>
+          <label for="date">
+            Fecha
+            <input type="date" name="date">
+          </label>
+        </li>
+        <li>
+          <label for="time">
+            Tiempo
+            <input type="time" name="time">
+          </label>
+        </li>
+        <li>
+          <label for="datetime">
+            Fecha y hora
+            <input type="datetime" name="datetime">
+          </label>
+        </li>
+        <li>
+          <label for="month">
+            Mes
+            <input type="month" name="month">
+          </label>
+        </li>
+        <li>
+          <label for="week">
+            Semana
+            <input type="week" name="week">
+          </label>
+        </li>
+        <li>
+          <label for="number">
+            Número
+            <input type="number" min="-10" max="10" name="number">
+          </label>
+        </li>
+
+        <li>
+          <label for="search">
+            Término de búsqueda
+            <input type="search" disabled name="search">
+          </label>
+        </li>
+
+      </ul>
+    </fieldset>
+    <button type="submit">Enviar</button>
+
+  </form>
+
+</body>
+
+</html>
